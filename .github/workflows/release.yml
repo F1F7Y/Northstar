@@ -1,9 +1,9 @@
 name: Build
-on:
-  push:
-    tags:
-      - 'v*'
-  workflow_dispatch:
+on: [workflow_dispatch]
+#  push:
+#    tags:
+#      - 'v*'
+#  workflow_dispatch:
 #    inputs:
 #      job:
 #        description: 'Job to run'
